@@ -1,0 +1,12 @@
+git:
+  repository_url: 'https://github.com/yourcompany/scripts-repo.git'
+  local_repo_path: '~/scripts-git-repo'
+  branch: 'main'
+
+sync:
+  exclude_extensions: 
+    - '.tmp'
+    - '.log'
+    - '.bak'
+    - '.swp'
+    - '.DS_Store'
